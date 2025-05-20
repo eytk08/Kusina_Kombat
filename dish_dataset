@@ -1,0 +1,173 @@
+{
+  "Sabaw (Comfort Soups & Broths)": {
+    "Sinigang": {
+      "main": ["pork", "fish", "shrimp", "beef", "vegetables", "tamarind"],
+      "optional": ["eggplant", "okra", "kangkong", "radish", "pineapple (for sinigang na hipon)"],
+      "cooking_method": "boil"
+    },
+    "Tinola": {
+      "main": ["chicken", "fish", "ginger", "green papaya"],
+      "optional": ["chayote", "malunggay leaves", "sili leaves", "potatoes"],
+      "cooking_method": "boil"
+    },
+    "Bulalo": {
+      "main": ["beef", "bone marrow", "corn", "cabbage"],
+      "optional": ["potatoes", "pechay", "bok choy", "leeks"],
+      "cooking_method": "boil"
+    },
+    "Batchoy": {
+      "main": ["pork", "offal", "noodles", "egg", "garlic"],
+      "optional": ["chicharon bits", "spring onions", "liver", "squid"],
+      "cooking_method": "boil"
+    },
+    "Arroz Caldo": {
+      "main": ["chicken", "rice", "ginger", "egg"],
+      "optional": ["saffron (for color)", "turmeric", "fried garlic", "calamansi"],
+      "cooking_method": "boil"
+    }
+  },
+  "Prito (Crispy & Fried Delights)": {
+    "Lechon Kawali": {
+      "main": ["pork", "salt", "pepper"],
+      "optional": ["lemongrass (for marinade)", "bay leaves", "five-spice powder"],
+      "cooking_method": "fry"
+    },
+    "Crispy Pata": {
+      "main": ["pork", "soy sauce", "vinegar"],
+      "optional": ["star anise", "garlic stuffing", "oyster sauce glaze"],
+      "cooking_method": "fry"
+    },
+    "Chicharon": {
+      "main": ["pork", "salt", "vinegar"],
+      "optional": ["chili powder", "sugar (for sweet-spicy glaze)", "coconut vinegar dip"],
+      "cooking_method": "fry"
+    },
+    "Lumpiang Shanghai": {
+      "main": ["pork", "shrimp", "carrots", "wrappers"],
+      "optional": ["water chestnuts", "jicama", "quail eggs (for filling)"],
+      "cooking_method": "fry"
+    },
+    "Turon": {
+      "main": ["banana", "sugar", "wrapper"],
+      "optional": ["jackfruit", "mango slices", "cream cheese", "chocolate drizzle"],
+      "cooking_method": "fry"
+    }
+  },
+  "Ulam (Savory Main Dishes)": {
+    "Adobo": {
+      "main": ["pork", "chicken", "beef", "soy sauce", "vinegar"],
+      "optional": ["hard-boiled eggs", "potatoes", "coconut milk (adobo sa gata)", "pineapple chunks"],
+      "cooking_method": "boil"
+    },
+    "Kare-Kare": {
+      "main": ["beef", "offal", "peanut butter", "vegetables"],
+      "optional": ["shrimp paste (bagoong)", "peanuts (whole)", "banana blossoms"],
+      "cooking_method": "boil"
+    },
+    "Menudo": {
+      "main": ["pork", "liver", "potatoes", "tomato sauce"],
+      "optional": ["green olives", "raisins", "bell peppers", "hotdogs (for menudo guisado)"],
+      "cooking_method": "sauté"
+    },
+    "Afritada": {
+      "main": ["chicken", "pork", "potatoes", "tomato sauce"],
+      "optional": ["green peas", "chorizo", "bell peppers", "olives"],
+      "cooking_method": "sauté"
+    },
+    "Paksiw na Isda": {
+      "main": ["fish", "vinegar", "ginger"],
+      "optional": ["ampalaya (bitter melon)", "long beans", "eggplant"],
+      "cooking_method": "boil"
+    }
+  },
+  "Balot at Pinalamanan (Wrapped & Stuffed)": {
+    "Lumpia": {
+      "main": ["pork", "shrimp", "vegetables", "wrappers"],
+      "optional": ["tofu", "jicama", "wood ear mushrooms", "sweet chili sauce"],
+      "cooking_method": "fry"
+    },
+    "Tamales": {
+      "main": ["rice", "chicken", "peanuts", "banana leaves"],
+      "optional": ["achiote (for color)", "coconut milk", "chocolate (for dessert tamales)"],
+      "cooking_method": "steam"
+    },
+    "Relleno": {
+      "main": ["chicken", "fish", "pork", "raisins", "bell peppers"],
+      "optional": ["sweet pickles", "cheese stuffing", "hard-boiled eggs (for embutido)"],
+      "cooking_method": "fry"
+    }
+  },
+  "Pulutan (Drinking Food)": {
+    "Sisig": {
+      "main": ["pork", "liver", "offal", "onions", "chili"],
+      "optional": ["mayonnaise", "raw egg (for sizzling serving)", "crispy ears"],
+      "cooking_method": "grill"
+    },
+    "Tokwa’t Baboy": {
+      "main": ["pork", "tofu", "soy sauce", "vinegar"],
+      "optional": ["green onions", "chicharon", "sugar (for balance)"],
+      "cooking_method": "fry"
+    },
+    "Kinilaw": {
+      "main": ["fish", "shrimp", "vinegar", "ginger"],
+      "optional": ["coconut milk (kinilaw sa gata)", "cucumber", "mango (for sweetness)"],
+      "cooking_method": "none (raw)"
+    }
+  },
+  "Inihaw (Grilled & BBQ)": {
+    "Inasal na Manok": {
+      "main": ["chicken", "lemongrass", "vinegar"],
+      "optional": ["annatto oil (for color)", "calamansi dipping sauce", "butter baste"],
+      "cooking_method": "grill"
+    },
+    "Pork BBQ": {
+      "main": ["pork", "soy sauce", "sugar"],
+      "optional": ["banana ketchup (for glaze)", "pineapple juice (marinade)", "sesame oil"],
+      "cooking_method": "grill"
+    },
+    "Bangus Inihaw": {
+      "main": ["fish", "tomatoes", "onions"],
+      "optional": ["mustard stuffing", "tamarind paste (for sourness)", "herbs (dill, parsley)"],
+      "cooking_method": "grill"
+    }
+  },
+  "Fiesta & Handaan (Celebration Feasts)": {
+    "Pancit Malabon": {
+      "main": ["shrimp", "pork", "noodles", "egg", "calamansi"],
+      "optional": ["squid", "chicharon topping", "oyster sauce", "lechon kawali bits"],
+      "cooking_method": "sauté"
+    },
+    "Kaldereta": {
+      "main": ["beef", "goat", "tomato sauce", "cheese"],
+      "optional": ["liver spread (thickener)", "pickles (for tang)", "green olives"],
+      "cooking_method": "boil"
+    },
+    "Hamonado": {
+      "main": ["pork", "pineapple", "sugar"],
+      "optional": ["cinnamon sticks", "star anise", "coconut vinegar (for balance)"],
+      "cooking_method": "boil"
+    }
+  },
+  "Paboritong Agahan (Breakfast Favorites)": {
+    "Tapsilog": {
+      "main": ["beef", "garlic rice", "egg"],
+      "optional": ["atchara (pickled papaya)", "diced tomatoes", "sriracha mayo"],
+      "cooking_method": "fry"
+    },
+    "Tocilog": {
+      "main": ["pork", "garlic rice", "egg"],
+      "optional": ["mango salsa", "ensaladang talong", "spicy vinegar dip"],
+      "cooking_method": "fry"
+    },
+    "Longsilog": {
+      "main": ["pork", "garlic rice", "egg"],
+      "optional": ["banana ketchup", "sautéed mushrooms", "cheddar cheese (for longganisa)"],
+      "cooking_method": "fry"
+    },
+    "Bangsilog": {
+      "main": ["fish", "garlic rice", "egg"],
+      "optional": ["dilis (fried anchovies)", "kamatis-bawang relish", "bagoong dip"],
+      "cooking_method": "fry"
+    }
+  }
+}
