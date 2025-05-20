@@ -1,8 +1,8 @@
 {
-  "Sabaw (Comfort Soups & Broths)": {
+  "Sabaw": {
     "Sinigang": {
       "main": ["pork", "fish", "shrimp", "beef", "vegetables", "tamarind"],
-      "optional": ["eggplant", "okra", "kangkong", "radish", "pineapple (for sinigang na hipon)"],
+      "optional": ["eggplant", "okra", "kangkong", "radish"],
       "cooking_method": "boil"
     },
     "Tinola": {
@@ -39,7 +39,7 @@
     },
     "Chicharon": {
       "main": ["pork", "salt", "vinegar"],
-      "optional": ["chili powder", "sugar (for sweet-spicy glaze)", "coconut vinegar dip"],
+      "optional": ["chili powder", "sugar", "coconut vinegar dip"],
       "cooking_method": "fry"
     },
     "Lumpiang Shanghai": {
@@ -61,7 +61,7 @@
     },
     "Kare-Kare": {
       "main": ["beef", "offal", "peanut butter", "vegetables"],
-      "optional": ["shrimp paste (bagoong)", "peanuts (whole)", "banana blossoms"],
+      "optional": ["bagoong", "peanuts", "banana blossoms"],
       "cooking_method": "boil"
     },
     "Menudo": {
@@ -122,7 +122,7 @@
     },
     "Pork BBQ": {
       "main": ["pork", "soy sauce", "sugar"],
-      "optional": ["banana ketchup (for glaze)", "pineapple juice (marinade)", "sesame oil"],
+      "optional": ["banana ketchup", "pineapple juice", "sesame oil"],
       "cooking_method": "grill"
     },
     "Bangus Inihaw": {
