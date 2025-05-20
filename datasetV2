@@ -1,0 +1,47 @@
+{
+  "themes": {
+    "everyday": {
+      "name": "Araw-Araw (Everyday Meals)",
+      "dishes": ["sinigang", "adobo", "tinola", "ginataang-kalabasa", "chopsuey"]
+    },
+    "breakfast": {
+      "name": "Agahan (Breakfast)",
+      "dishes": ["tapsilog", "tocilog", "longsilog", "arroz-caldo"]
+    },
+    "merienda": {
+      "name": "Merienda (Snacks)",
+      "dishes": ["pancit-guisado", "lumpiang-shanghai", "turon", "ukoy"]
+    },
+    "fiesta": {
+      "name": "Handaan (Fiesta)",
+      "dishes": ["lechon-kawali", "kare-kare", "pancit-malabon", "kaldereta"]
+    }
+  },
+  "dishes": {
+    "sinigang": {
+      "main": ["pork", "tamarind", "kangkong"],
+      "optional": ["shrimp", "eggplant"],
+      "method": "boil"
+    },
+    "adobo": {
+      "main": ["pork", "soy sauce", "vinegar"],
+      "optional": ["potatoes", "coconut milk"],
+      "method": "braise"
+    },
+    "pancit-guisado": {
+      "main": ["noodles", "pork", "carrots"],
+      "optional": ["shrimp", "quail eggs"],
+      "method": "sauté"
+    },
+    "ukoy": {
+      "main": ["shrimp", "sweet potato", "flour"],
+      "optional": ["bean sprouts"],
+      "method": "fry"
+    },
+    "lechon-kawali": {
+      "main": ["pork belly", "salt"],
+      "optional": ["lechon sauce"],
+      "method": "deep-fry"
+    }
+  }
+}
