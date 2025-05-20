@@ -1,5 +1,5 @@
 {
-  "Sabaw": {
+  "Sabaw (Comfort Soups & Broths)": {
     "Sinigang": {
       "main": ["pork", "fish", "shrimp", "beef", "vegetables", "tamarind"],
       "optional": ["eggplant", "okra", "kangkong", "radish"],
@@ -23,6 +23,11 @@
     "Arroz Caldo": {
       "main": ["chicken", "rice", "ginger", "egg"],
       "optional": ["saffron (for color)", "turmeric", "fried garlic", "calamansi"],
+      "cooking_method": "boil"
+    },
+    "Misua Soup": {
+      "main": ["misua noodles", "pork", "shrimp", "garlic", "onions"],
+      "optional": ["patola (sponge gourd)", "dried mushrooms", "fish sauce"],
       "cooking_method": "boil"
     }
   },
@@ -51,6 +56,16 @@
       "main": ["banana", "sugar", "wrapper"],
       "optional": ["jackfruit", "mango slices", "cream cheese", "chocolate drizzle"],
       "cooking_method": "fry"
+    },
+    "Fried Chicken": {
+      "main": ["chicken", "salt", "pepper", "garlic"],
+      "optional": ["buttermilk marinade", "hot sauce glaze", "five-spice powder"],
+      "cooking_method": "fry"
+    },
+    "Ukoy": {
+      "main": ["shrimp", "sweet potato", "flour", "egg"],
+      "optional": ["bean sprouts", "kalabasa (squash)", "fish sauce dip"],
+      "cooking_method": "fry"
     }
   },
   "Ulam (Savory Main Dishes)": {
@@ -78,6 +93,31 @@
       "main": ["fish", "vinegar", "ginger"],
       "optional": ["ampalaya (bitter melon)", "long beans", "eggplant"],
       "cooking_method": "boil"
+    },
+    "Bistek": {
+      "main": ["beef", "soy sauce", "calamansi", "onions"],
+      "optional": ["sugar (for balance)", "bell peppers", "oyster sauce"],
+      "cooking_method": "sauté"
+    },
+    "Bicol Express": {
+      "main": ["pork", "coconut milk", "shrimp paste", "chili peppers"],
+      "optional": ["string beans", "eggplant", "lemongrass"],
+      "cooking_method": "stew"
+    },
+    "Ginataang Kalabasa": {
+      "main": ["kalabasa (squash)", "coconut milk", "shrimp", "string beans"],
+      "optional": ["malunggay leaves", "chili peppers", "fried fish"],
+      "cooking_method": "stew"
+    },
+    "Pochero": {
+      "main": ["beef", "banana", "tomato sauce", "potatoes"],
+      "optional": ["chorizo", "cabbage", "sweet potato"],
+      "cooking_method": "boil"
+    },
+    "Chopsuey": {
+      "main": ["mixed vegetables", "pork", "chicken liver", "oyster sauce"],
+      "optional": ["quail eggs", "cauliflower", "baby corn"],
+      "cooking_method": "sauté"
     }
   },
   "Balot at Pinalamanan (Wrapped & Stuffed)": {
@@ -135,6 +175,11 @@
     "Pancit Malabon": {
       "main": ["shrimp", "pork", "noodles", "egg", "calamansi"],
       "optional": ["squid", "chicharon topping", "oyster sauce", "lechon kawali bits"],
+      "cooking_method": "sauté"
+    },
+    "Pancit Guisado": {
+      "main": ["noodles", "pork", "chicken", "vegetables", "soy sauce"],
+      "optional": ["shrimp", "quail eggs", "citrus (calamansi or lemon)"],
       "cooking_method": "sauté"
     },
     "Kaldereta": {
