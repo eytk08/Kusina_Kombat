@@ -1,0 +1,179 @@
+{
+  "themes": {
+    "masarsa": {
+        "name": "Masarsa (Saucy)",
+        "dishes": [
+            { "name": "kare-kare", "points": 3 },
+            { "name": "kaldereta", "points": 3 },
+            { "name": "adobong manok", "points": 3 },
+            { "name": "adobong baboy", "points": 3 },
+            { "name": "menudo", "points": 3 },
+            { "name": "afritada", "points": 3 },
+            { "name": "bopis", "points": 2 },
+            { "name": "pochero", "points": 3 },
+            { "name": "bicol express", "points": 3 },
+            { "name": "dinuguan", "points": 2 },
+            { "name": "pansit-bihon", "points": 2 },
+            { "name": "chicken curry", "points": 3 },
+            { "name": "lomi", "points": 2 },
+            { "name": "batchoy", "points": 2 },
+            { "name": "mami", "points": 2 }
+        ]
+    },
+    "maanghang": {
+        "name": "Maanghang",
+        "dishes": [
+            { "name": "sisig", "points": 3 },
+            { "name": "dinuguan", "points": 2 },
+            { "name": "caldereta", "points": 3 },
+            { "name": "papaitan", "points": 1 },
+            { "name": "bicol-express", "points": 3 },
+            { "name": "laing", "points": 3 },
+            { "name": "spicy-adobo", "points": 2 },
+            { "name": "kinilaw-na-isda", "points": 1 },
+            { "name": "fried chicken", "points": 1 },
+            { "name": "chicken curry", "points": 1 },
+            { "name": "chicken inasal", "points": 1 }
+
+        ]
+    },
+    "matamis": {
+        "name": "Matamis",
+        "dishes": [
+            { "name": "minatamis-na-saging", "points": 3 },
+            { "name": "leche-flan", "points": 3 },
+            { "name": "turon", "points": 3 },
+            { "name": "kalamay", "points": 3 },
+            { "name": "champorado", "points": 3 },
+            { "name": "suman", "points": 3 },
+            { "name": "puto", "points": 2 },
+            { "name": "biko", "points": 2 },
+            { "name": "banana-cue", "points": 2 },
+            { "name": "ginataang-bilo-bilo", "points": 3 }
+        ]
+    },
+    "maalat": {
+        "name": "Maalat",
+        "dishes": [
+            { "name": "daing-na-bangus", "points": 3 },
+            { "name": "tinapa", "points": 2 },
+            { "name": "salted-egg", "points": 1 },
+            { "name": "adobo", "points": 3 },
+            { "name": "pansit-canton", "points": 3 }
+        ]
+    },
+    "maasim": {
+        "name": "Maasim",
+        "dishes": [
+            { "name": "sinigang na baboy", "points": 3 },
+            { "name": "sinigang na hipon", "points": 3 },
+            { "name": "sinigang na isda", "points": 3 },
+            { "name": "kilawin", "points": 2 },
+            { "name": "paksiw-na-isda", "points": 3 },
+            { "name": "adobong puti", "points": 3 }
+        ]
+    },
+    "agahan": {
+        "name": "Agahan",
+        "dishes": [
+            { "name": "tapsilog", "points": 3 },
+            { "name": "tocilog", "points": 3 },
+            { "name": "longsilog", "points": 3 },
+            { "name": "arroz-caldo", "points": 3 },
+            { "name": "champorado", "points": 2 },
+            { "name": "tuyosilog", "points": 3 }
+        ]
+    },
+    "pulutan": {
+        "name": "Pulutan",
+        "dishes": [
+            { "name": "sisig", "points": 3 },
+            { "name": "bopis", "points": 2 },
+            { "name": "tokwa't-baboy", "points": 2 },
+            { "name": "lechon-kawali", "points": 3 },
+            { "name": "fried chicken", "points": 2 },
+            { "name": "chicken wings", "points": 2 },
+            { "name": "crispy pata", "points": 3 }
+        ]
+    },
+    "gulay": {
+        "name": "Gulay",
+        "dishes": [
+            { "name": "pinakbet", "points": 3 },
+            { "name": "laing", "points": 3 },
+            { "name": "chopsuey", "points": 3 },
+            { "name": "ginataang-kalabasa", "points": 3 },
+            { "name": "lumpiang-sariwa", "points": 3 },
+            { "name": "ginisang sitaw", "points": 2 },
+            { "name": "nilagang-baboy", "points": 2 },
+            { "name": "ginisang monggo", "points": 3 },
+            { "name": "ginisang ampalaya", "points": 3 },
+            { "name": "pesa na isda", "points": 2 },
+            { "name": "piniritong talong", "points": 1 },
+            { "name": "misua", "points": 1 }
+        ]
+    },
+    "handaan": {
+        "name": "Handaan",
+        "dishes": [
+            { "name": "lechon-kawali", "points": 3 },
+            { "name": "lechon manok", "points": 3 },
+            { "name": "lumpiang-shanghai", "points": 3 },
+            { "name": "pancit-bihon", "points": 2 },
+            { "name": "pancit-canton", "points": 3 },
+            { "name": "kare-kare", "points": 3 },
+            { "name": "pancit-malabon", "points": 2 },
+            { "name": "kaldereta", "points": 3 },
+            { "name": "biko", "points": 3 },
+            { "name": "barbeque", "points": 3 },
+            { "name": "fried chicken", "points": 2 },
+            { "name": "chicken wings", "points": 2 },
+            { "name": "crispy pata", "points": 3 }
+        ]
+    }
+  },
+    "dishes": {
+        "kare-kare": {
+        "ingredients": ["oxtail", "peanut butter", "eggplant", "string beans", "shrimp paste"],
+        "cooking_method": "stewing",
+        "dish_type": "main"
+        },
+        "kaldereta": {
+        "ingredients": ["goat meat", "tomato sauce", "potatoes", "carrots", "bell peppers"],
+        "cooking_method": "stewing",
+        "dish_type": "main"
+        },
+        "adobong manok": {
+        "ingredients": ["chicken", "soy sauce", "vinegar", "garlic", "bay leaves"],
+        "cooking_method": "braising",
+        "dish_type": "main"
+        },
+
+        "bicol express": {
+        "ingredients": ["pork belly", "coconut milk", "chili peppers", "shrimp paste"],
+        "cooking_method": "simmering",
+        "dish_type": "main"
+        },
+        "laing": {
+        "ingredients": ["taro leaves", "coconut milk", "chili", "pork"],
+        "cooking_method": "simmering",
+        "dish_type": "vegetable"
+        },
+
+        "sinigang na baboy": {
+        "ingredients": ["pork ribs", "tamarind", "kangkong", "radish"],
+        "cooking_method": "boiling",
+        "dish_type": "soup"
+        },
+
+        "lechon kawali": {
+        "ingredients": ["pork belly", "salt", "pepper"],
+        "cooking_method": "deep-frying",
+        "dish_type": "pulutan"
+        }
+
+    }
+}
+
+
+
