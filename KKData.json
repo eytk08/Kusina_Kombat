@@ -19,7 +19,6 @@
         { "name": "dinuguan", "points": 2 },
         { "name": "caldereta", "points": 3 },
         { "name": "bicol express", "points": 3 },
-        { "name": "spicy-adobo", "points": 2 }
       ]
     },
     "matamis": {
@@ -32,7 +31,8 @@
     "maalat": {
       "name": "Maalat",
       "dishes": [
-        { "name": "adobo", "points": 3 },
+        { "name": "adobong manok", "points": 3 },
+        { "name": "adobong baboy", "points": 3 },
         { "name": "pansit canton", "points": 3 }
       ]
     },
@@ -96,10 +96,6 @@
       "meat": ["beef", "pork"],
       "cooking_method": ["stew"]
     },
-    "kaldereta": {
-      "ingredients": ["tomato sauce", "potato", "carrot", "bell peppers"],
-      "cooking_method": ["stew"]
-    },
     "adobong manok": {
       "ingredients": ["soy sauce", "vinegar", "garlic", "bay leaves"],
       "meat": ["chicken"],
@@ -150,15 +146,10 @@
       "meat": ["pork"],
       "cooking_method": ["grill", "saute"]
     },
-    "caldereta": {
+    "kaldereta": {
       "ingredients": ["beef", "onion", "garlic", "potato", "carrot", "black pepper", "green chili pepper", "tomato"],
       "meat": ["beef"],
       "cooking_method": ["stew"]
-    },
-    "spicy-adobo": {
-      "ingredients": ["soy sauce", "vinegar", "chili", "garlic", "bay leaves"],
-      "meat": ["chicken", "pork"],
-      "cooking_method": ["saute", "stew"]
     },
     "champorado": {
       "ingredients": ["rice", "chocolate", "milk", "sugar"],
@@ -256,17 +247,17 @@
       "ingredients": ["pineapple juice", "brown sugar", "soy sauce", "garlic", "onion", "black pepper"],
       "meat": ["pork"],
       "cooking_method": ["braise", "stew"]
-    }
+    },
     "tocino": {
       "ingredients": ["sugar", "salt", "garlic"],
       "meat": ["pork"],
       "cooking_method": ["fry", "grill"]
-    }
+    },
     "nilagang baboy": {
       "ingredients": [ "potatoes", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
       "meat": ["pork"],
       "cooking_method": ["boil"]
-    }
+    },
     "pesa na isda": {
       "ingredients": [ "ginger", "onion", "pechay", "salt", "peppercorns"],
       "meat": ["fish"],
