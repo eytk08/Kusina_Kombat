@@ -1,0 +1,374 @@
+var dish_knowledge: Dictionary = {
+    "kare-kare": {
+        "meat": {
+            "essential": ["beef", "pork"],
+            "avoid": ["poultry", "fish"]
+        },
+        "ingredients": {
+            "essential": ["peanut butter", "eggplant", "string beans", "shrimp paste"],
+            "tier1": ["banana blossom", "bok choy"],
+            "avoid": ["citrus", "dairy"]
+        }
+    },
+    "kaldereta": {
+        "meat": {
+            "essential": ["beef"],
+            "tier1": ["goat"],
+            "avoid": ["fish", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["tomato sauce", "potato", "carrot", "bell peppers"],
+            "tier1": ["liver spread", "green peas"],
+            "avoid": ["vinegar", "coconut milk"]
+        }
+    },
+    "adobong manok": {
+        "meat": {
+            "essential": ["chicken"],
+            "avoid": ["beef", "pork"]
+        },
+        "ingredients": {
+            "essential": ["soy sauce", "vinegar", "garlic", "bay leaves"],
+            "tier1": ["black peppercorns", "onion"],
+            "avoid": ["sugar", "dairy"]
+        }
+    },
+    "adobong baboy": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["fish", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["soy sauce", "vinegar", "garlic", "bay leaves"],
+            "tier1": ["black peppercorns", "onion"],
+            "avoid": ["sugar", "dairy"]
+        }
+    },
+    "bicol express": {
+        "meat": {
+            "essential": ["pork"],
+            "tier1": ["shrimp"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["coconut milk", "chili peppers", "shrimp paste"],
+            "tier1": ["string beans", "eggplant"],
+            "avoid": ["vinegar", "soy sauce"]
+        }
+    },
+    "sinigang na baboy": {
+        "meat": {
+            "essential": ["pork", "pork bone"],
+            "avoid": ["poultry", "fish"]
+        },
+        "ingredients": {
+            "essential": ["tamarind", "kangkong", "radish"],
+            "tier1": ["tomato", "string beans"],
+            "avoid": ["dairy", "peanut butter"]
+        }
+    },
+    "lechon kawali": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["poultry", "fish"]
+        },
+        "ingredients": {
+            "essential": ["salt", "pepper", "oil"],
+            "tier1": ["garlic", "bay leaves"],
+            "avoid": ["sugar", "vinegar"]
+        }
+    },
+    "menudo": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["fish", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["soy sauce", "garlic", "onion", "tomato sauce", "carrot", "potato"],
+            "tier1": ["bell pepper", "raisins"],
+            "avoid": ["vinegar", "coconut milk"]
+        }
+    },
+    "afritada": {
+        "meat": {
+            "essential": ["chicken"],
+            "avoid": ["beef", "pork"]
+        },
+        "ingredients": {
+            "essential": ["soy sauce", "garlic", "onion", "tomato sauce", "bell pepper", "carrot", "potato"],
+            "tier1": ["green peas", "olives"],
+            "avoid": ["vinegar", "coconut milk"]
+        }
+    },
+    "dinuguan": {
+        "meat": {
+            "essential": ["pork", "offal"],
+            "avoid": ["poultry", "fish"]
+        },
+        "ingredients": {
+            "essential": ["garlic", "vinegar", "ginger", "green chili pepper", "pigs blood"],
+            "tier1": ["onion", "bay leaves"],
+            "avoid": ["soy sauce", "sugar"]
+        }
+    },
+    "sisig": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["poultry", "fish"]
+        },
+        "ingredients": {
+            "essential": ["onion", "garlic", "ginger", "green chili pepper", "soy sauce", "calamansi", "black pepper"],
+            "tier1": ["mayonnaise", "egg"],
+            "avoid": ["sugar", "vinegar"]
+        }
+    },
+    "champorado": {
+        "ingredients": {
+            "essential": ["rice", "chocolate", "milk", "sugar"],
+            "tier1": ["cocoa powder", "condensed milk"],
+            "avoid": ["salt", "vinegar"]
+        }
+    },
+    "tapsilog": {
+        "meat": {
+            "essential": ["beef"],
+            "avoid": ["pork", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["egg", "garlic", "rice", "salt", "oil"],
+            "tier1": ["onion", "soy sauce"],
+            "avoid": ["vinegar", "sugar"]
+        }
+    },
+    "tocilog": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["egg", "garlic", "rice", "salt", "oil"],
+            "tier1": ["onion", "soy sauce"],
+            "avoid": ["vinegar", "sugar"]
+        }
+    },
+    "longsilog": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["egg", "garlic", "rice", "salt", "oil"],
+            "tier1": ["onion", "soy sauce"],
+            "avoid": ["vinegar", "sugar"]
+        }
+    },
+    "arroz caldo": {
+        "meat": {
+            "essential": ["chicken"],
+            "avoid": ["pork", "beef"]
+        },
+        "ingredients": {
+            "essential": ["rice", "garlic", "onion", "ginger", "egg", "fish sauce"],
+            "tier1": ["saffron", "spring onions"],
+            "avoid": ["vinegar", "soy sauce"]
+        }
+    },
+    "tuyosilog": {
+        "meat": {
+            "essential": ["tuyo"],
+            "avoid": ["pork", "beef"]
+        },
+        "ingredients": {
+            "essential": ["egg", "garlic", "rice", "salt", "oil"],
+            "tier1": ["tomato", "onion"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "crispy pata": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["poultry", "fish"]
+        },
+        "ingredients": {
+            "essential": ["pork", "bay leaves", "salt", "pepper"],
+            "tier1": ["garlic", "onion"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "pinakbet": {
+        "meat": {
+            "essential": ["shrimp", "pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["beans", "squash", "okra", "eggplant", "bitter gourd", "sweet potato", "tomato", "ginger", "onion", "garlic", "shrimp paste"],
+            "tier1": ["coconut milk", "fish sauce"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "ginataang kalabasa": {
+        "meat": {
+            "essential": ["pork", "chicken", "shrimp"],
+            "avoid": ["beef"]
+        },
+        "ingredients": {
+            "essential": ["squash", "beans", "coconut milk", "onion", "ginger", "garlic", "black pepper", "fish sauce"],
+            "tier1": ["chili peppers", "malunggay"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "lumpiang sariwa": {
+        "meat": {
+            "essential": ["pork", "shrimp"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["sweet potato", "fish sauce", "cabbage", "carrot", "peanut butter", "lettuce", "pork", "tofu", "shrimp", "beans", "onion", "garlic", "wrapper", "soy sauce", "sugar"],
+            "tier1": ["jicama", "water chestnuts"],
+            "avoid": ["vinegar", "chili"]
+        }
+    },
+    "ginisang sitaw": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["beans", "tomato", "onion", "garlic", "fish sauce", "black pepper"],
+            "tier1": ["shrimp paste", "coconut milk"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "ginisang monggo": {
+        "meat": {
+            "essential": ["pork", "shrimp"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["mung beans", "garlic", "spinach", "tomato", "onion", "fish sauce", "black pepper"],
+            "tier1": ["malunggay", "bitter melon leaves"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "ginisang ampalaya": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["bitter gourd", "oil", "garlic", "salt", "black pepper", "egg", "tomato", "onion"],
+            "tier1": ["shrimp", "tofu"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "pancit canton": {
+        "meat": {
+            "essential": ["pork", "shrimp"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["canton", "onion", "garlic", "carrot", "cabbage", "oyster sauce", "soy sauce", "salt", "pepper"],
+            "tier1": ["celery", "bell pepper"],
+            "avoid": ["vinegar", "coconut milk"]
+        }
+    },
+    "sinigang na hipon": {
+        "meat": {
+            "essential": ["shrimp"],
+            "avoid": ["pork", "beef"]
+        },
+        "ingredients": {
+            "essential": ["string beans", "sampaloc", "okra", "green chili pepper", "radish", "tomato", "onion"],
+            "tier1": ["kangkong", "taro"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "sinigang na isda": {
+        "meat": {
+            "essential": ["fish"],
+            "avoid": ["pork", "beef"]
+        },
+        "ingredients": {
+            "essential": ["string beans", "sampaloc", "okra", "green chili pepper", "radish", "tomato", "onion"],
+            "tier1": ["kangkong", "taro"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "paksiw na isda": {
+        "meat": {
+            "essential": ["fish"],
+            "avoid": ["pork", "beef"]
+        },
+        "ingredients": {
+            "essential": ["garlic", "onion", "vinegar", "chili", "salt"],
+            "tier1": ["ginger", "black pepper"],
+            "avoid": ["soy sauce", "sugar"]
+        }
+    },
+    "lumpiang shanghai": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["wrapper", "oil", "pork", "onion", "carrot", "garlic", "black pepper", "salt"],
+            "tier1": ["water chestnuts", "celery"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "barbeque": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["pork", "soy sauce", "ketchup", "calamansi", "garlic", "black pepper", "sugar", "salt"],
+            "tier1": ["banana ketchup", "sprite"],
+            "avoid": ["vinegar", "coconut milk"]
+        }
+    },
+    "hamonado": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["pineapple juice", "brown sugar", "soy sauce", "garlic", "onion", "black pepper"],
+            "tier1": ["bay leaves", "star anise"],
+            "avoid": ["vinegar", "coconut milk"]
+        }
+    },
+    "tocino": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["sugar", "salt", "garlic"],
+            "tier1": ["annatto", "pineapple juice"],
+            "avoid": ["vinegar", "soy sauce"]
+        }
+    },
+    "nilagang baboy": {
+        "meat": {
+            "essential": ["pork"],
+            "avoid": ["beef", "poultry"]
+        },
+        "ingredients": {
+            "essential": ["potatoes", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
+            "tier1": ["green beans", "bok choy"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    },
+    "pesa na isda": {
+        "meat": {
+            "essential": ["fish"],
+            "avoid": ["pork", "beef"]
+        },
+        "ingredients": {
+            "essential": ["ginger", "onion", "pechay", "salt", "peppercorns"],
+            "tier1": ["green papaya", "malunggay"],
+            "avoid": ["soy sauce", "vinegar"]
+        }
+    }
+}
