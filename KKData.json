@@ -17,7 +17,7 @@
       "dishes": [
         { "name": "sisig", "points": 3 },
         { "name": "dinuguan", "points": 2 },
-        { "name": "caldereta", "points": 3 },
+        { "name": "kaldereta", "points": 3 },
         { "name": "bicol express", "points": 3 },
       ]
     },
@@ -103,7 +103,7 @@
     },
     "adobong baboy": {
       "ingredients": ["soy sauce", "vinegar", "garlic", "bay leaves"],
-      "meat": ["chicken"],
+      "meat": ["manok"],
       "cooking_method": ["saute", "stew"]
     },
     "bicol express": {
@@ -121,18 +121,13 @@
       "meat": ["pork"],
       "cooking_method": ["fry"]
     },
-    "adobong baboy": {
-      "ingredients": ["soy sauce", "vinegar", "pepper", "bay leaves", "garlic"],
-      "meat": ["pork"],
-      "cooking_method": ["saute", "stew"]
-    },
     "menudo": {
-      "ingredients": ["soy sauce", "garlic", "onion", "soy sauce", "tomato sauce", "carrot", "potato"],
+      "ingredients": ["soy sauce", "garlic", "onion", "tomato sauce", "carrot", "potato"],
       "meat": ["pork"],
       "cooking_method": ["saute", "stew"]
     },
     "afritada": {
-      "ingredients": ["soy sauce", "garlic", "onion", "soy sauce", "tomato sauce", "bell pepper", "carrot", "potato"],
+      "ingredients": ["soy sauce", "garlic", "onion", "tomato sauce", "bell pepper", "carrot", "potato"],
       "meat": ["chicken"],
       "cooking_method": ["saute", "stew"]
     },
