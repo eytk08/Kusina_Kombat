@@ -2,23 +2,23 @@ var dish_knowledge: Dictionary = {
     "kare-kare": {
         "meat": {
             "essential": ["beef", "pork"],
-            "avoid": ["poultry", "fish"]
+            "avoid": ["shrimp", "fish"]
         },
         "ingredients": {
-            "essential": ["peanut butter", "eggplant", "string beans", "shrimp paste"],
-            "tier1": ["banana blossom", "bok choy"],
-            "avoid": ["citrus", "dairy"]
+            "essential": ["eggplant", "string beans", "shrimp paste"],
+            "tier1": ["pechay"],
+            "avoid": ["calamansi", "milk"]
         }
     },
     "kaldereta": {
         "meat": {
             "essential": ["beef"],
-            "tier1": ["goat"],
-            "avoid": ["fish", "poultry"]
+            "tier1": ["pork"],
+            "avoid": ["fish", "shrimp"]
         },
         "ingredients": {
-            "essential": ["tomato sauce", "potato", "carrot", "bell peppers"],
-            "tier1": ["liver spread", "green peas"],
+            "essential": ["tomato sauce", "potato", "carrot"],
+            "tier1": [],
             "avoid": ["vinegar", "coconut milk"]
         }
     },
@@ -29,29 +29,29 @@ var dish_knowledge: Dictionary = {
         },
         "ingredients": {
             "essential": ["soy sauce", "vinegar", "garlic", "bay leaves"],
-            "tier1": ["black peppercorns", "onion"],
-            "avoid": ["sugar", "dairy"]
+            "tier1": ["potato", "onion"],
+            "avoid": ["cheese", "milk"]
         }
     },
     "adobong baboy": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["fish", "poultry"]
+            "avoid": ["fish", "chicken"]
         },
         "ingredients": {
             "essential": ["soy sauce", "vinegar", "garlic", "bay leaves"],
-            "tier1": ["black peppercorns", "onion"],
-            "avoid": ["sugar", "dairy"]
+            "tier1": ["potato", "onion"],
+            "avoid": ["cheese", "milk"]
         }
     },
     "bicol express": {
         "meat": {
             "essential": ["pork"],
             "tier1": ["shrimp"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef", "fish"]
         },
         "ingredients": {
-            "essential": ["coconut milk", "chili peppers", "shrimp paste"],
+            "essential": ["coconut milk", "shrimp paste"],
             "tier1": ["string beans", "eggplant"],
             "avoid": ["vinegar", "soy sauce"]
         }
@@ -59,21 +59,21 @@ var dish_knowledge: Dictionary = {
     "sinigang na baboy": {
         "meat": {
             "essential": ["pork", "pork bone"],
-            "avoid": ["poultry", "fish"]
+            "avoid": ["offal", "fish"]
         },
         "ingredients": {
-            "essential": ["tamarind", "kangkong", "radish"],
+            "essential": ["tamarind", "radish"],
             "tier1": ["tomato", "string beans"],
-            "avoid": ["dairy", "peanut butter"]
+            "avoid": ["milk", "peanut"]
         }
     },
     "lechon kawali": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["poultry", "fish"]
+            "avoid": ["shrimp", "fish"]
         },
         "ingredients": {
-            "essential": ["salt", "pepper", "oil"],
+            "essential": ["salt", "black pepper", "oil"],
             "tier1": ["garlic", "bay leaves"],
             "avoid": ["sugar", "vinegar"]
         }
@@ -81,11 +81,11 @@ var dish_knowledge: Dictionary = {
     "menudo": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["fish", "poultry"]
+            "avoid": ["fish", "shrimp"]
         },
         "ingredients": {
             "essential": ["soy sauce", "garlic", "onion", "tomato sauce", "carrot", "potato"],
-            "tier1": ["bell pepper", "raisins"],
+            "tier1": ["bell pepper"],
             "avoid": ["vinegar", "coconut milk"]
         }
     },
@@ -96,17 +96,17 @@ var dish_knowledge: Dictionary = {
         },
         "ingredients": {
             "essential": ["soy sauce", "garlic", "onion", "tomato sauce", "bell pepper", "carrot", "potato"],
-            "tier1": ["green peas", "olives"],
+            "tier1": [],
             "avoid": ["vinegar", "coconut milk"]
         }
     },
     "dinuguan": {
         "meat": {
             "essential": ["pork", "offal"],
-            "avoid": ["poultry", "fish"]
+            "avoid": ["fish"]
         },
         "ingredients": {
-            "essential": ["garlic", "vinegar", "ginger", "green chili pepper", "pigs blood"],
+            "essential": ["garlic", "vinegar", "ginger", "green chili pepper"],
             "tier1": ["onion", "bay leaves"],
             "avoid": ["soy sauce", "sugar"]
         }
@@ -114,25 +114,25 @@ var dish_knowledge: Dictionary = {
     "sisig": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["poultry", "fish"]
+            "avoid": ["fish"]
         },
         "ingredients": {
             "essential": ["onion", "garlic", "ginger", "green chili pepper", "soy sauce", "calamansi", "black pepper"],
-            "tier1": ["mayonnaise", "egg"],
+            "tier1": ["egg"],
             "avoid": ["sugar", "vinegar"]
         }
     },
     "champorado": {
         "ingredients": {
-            "essential": ["rice", "chocolate", "milk", "sugar"],
-            "tier1": ["cocoa powder", "condensed milk"],
+            "essential": ["rice", "milk", "sugar"],
+            "tier1": [],
             "avoid": ["salt", "vinegar"]
         }
     },
     "tapsilog": {
         "meat": {
             "essential": ["beef"],
-            "avoid": ["pork", "poultry"]
+            "avoid": ["pork"]
         },
         "ingredients": {
             "essential": ["egg", "garlic", "rice", "salt", "oil"],
@@ -143,7 +143,7 @@ var dish_knowledge: Dictionary = {
     "tocilog": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
             "essential": ["egg", "garlic", "rice", "salt", "oil"],
@@ -154,7 +154,7 @@ var dish_knowledge: Dictionary = {
     "longsilog": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
             "essential": ["egg", "garlic", "rice", "salt", "oil"],
@@ -169,7 +169,7 @@ var dish_knowledge: Dictionary = {
         },
         "ingredients": {
             "essential": ["rice", "garlic", "onion", "ginger", "egg", "fish sauce"],
-            "tier1": ["saffron", "spring onions"],
+            "tier1": [],
             "avoid": ["vinegar", "soy sauce"]
         }
     },
@@ -187,10 +187,10 @@ var dish_knowledge: Dictionary = {
     "crispy pata": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["poultry", "fish"]
+            "avoid": ["fish"]
         },
         "ingredients": {
-            "essential": ["pork", "bay leaves", "salt", "pepper"],
+            "essential": ["pork", "bay leaves", "salt", "black pepper"],
             "tier1": ["garlic", "onion"],
             "avoid": ["soy sauce", "vinegar"]
         }
@@ -198,10 +198,10 @@ var dish_knowledge: Dictionary = {
     "pinakbet": {
         "meat": {
             "essential": ["shrimp", "pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["beans", "squash", "okra", "eggplant", "bitter gourd", "sweet potato", "tomato", "ginger", "onion", "garlic", "shrimp paste"],
+            "essential": ["string beans", "okra", "eggplant", "bitter gourd", "sweet potato", "tomato", "ginger", "onion", "garlic", "shrimp paste"],
             "tier1": ["coconut milk", "fish sauce"],
             "avoid": ["soy sauce", "vinegar"]
         }
@@ -212,29 +212,29 @@ var dish_knowledge: Dictionary = {
             "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["squash", "beans", "coconut milk", "onion", "ginger", "garlic", "black pepper", "fish sauce"],
-            "tier1": ["chili peppers", "malunggay"],
+            "essential": ["coconut milk", "onion", "ginger", "garlic", "black pepper", "fish sauce"],
+            "tier1": ["green chili pepper", "morngga"],
             "avoid": ["soy sauce", "vinegar"]
         }
     },
     "lumpiang sariwa": {
         "meat": {
             "essential": ["pork", "shrimp"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["sweet potato", "fish sauce", "cabbage", "carrot", "peanut butter", "lettuce", "pork", "tofu", "shrimp", "beans", "onion", "garlic", "wrapper", "soy sauce", "sugar"],
-            "tier1": ["jicama", "water chestnuts"],
+            "essential": ["sweet potato", "fish sauce", "cabbage", "carrot", "peanut", "pork", "shrimp", "string beans", "onion", "garlic", "wrapper", "soy sauce", "sugar"],
+            "tier1": [],
             "avoid": ["vinegar", "chili"]
         }
     },
     "ginisang sitaw": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["beans", "tomato", "onion", "garlic", "fish sauce", "black pepper"],
+            "essential": ["string beans", "tomato", "onion", "garlic", "fish sauce", "black pepper"],
             "tier1": ["shrimp paste", "coconut milk"],
             "avoid": ["soy sauce", "vinegar"]
         }
@@ -242,18 +242,18 @@ var dish_knowledge: Dictionary = {
     "ginisang monggo": {
         "meat": {
             "essential": ["pork", "shrimp"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["mung beans", "garlic", "spinach", "tomato", "onion", "fish sauce", "black pepper"],
-            "tier1": ["malunggay", "bitter melon leaves"],
+            "essential": ["garlic", "spinach", "tomato", "onion", "fish sauce", "black pepper"],
+            "tier1": ["morngga"],
             "avoid": ["soy sauce", "vinegar"]
         }
     },
     "ginisang ampalaya": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
             "essential": ["bitter gourd", "oil", "garlic", "salt", "black pepper", "egg", "tomato", "onion"],
@@ -264,11 +264,11 @@ var dish_knowledge: Dictionary = {
     "pancit canton": {
         "meat": {
             "essential": ["pork", "shrimp"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["canton", "onion", "garlic", "carrot", "cabbage", "oyster sauce", "soy sauce", "salt", "pepper"],
-            "tier1": ["celery", "bell pepper"],
+            "essential": ["canton", "onion", "garlic", "carrot", "cabbage", "soy sauce", "salt", "black pepper"],
+            "tier1": ["bell pepper"],
             "avoid": ["vinegar", "coconut milk"]
         }
     },
@@ -278,8 +278,8 @@ var dish_knowledge: Dictionary = {
             "avoid": ["pork", "beef"]
         },
         "ingredients": {
-            "essential": ["string beans", "sampaloc", "okra", "green chili pepper", "radish", "tomato", "onion"],
-            "tier1": ["kangkong", "taro"],
+            "essential": ["string beans", "okra", "green chili pepper", "radish", "tomato", "onion"],
+            "tier1": [],
             "avoid": ["soy sauce", "vinegar"]
         }
     },
@@ -289,8 +289,8 @@ var dish_knowledge: Dictionary = {
             "avoid": ["pork", "beef"]
         },
         "ingredients": {
-            "essential": ["string beans", "sampaloc", "okra", "green chili pepper", "radish", "tomato", "onion"],
-            "tier1": ["kangkong", "taro"],
+            "essential": ["string beans", "okra", "green chili pepper", "radish", "tomato", "onion"],
+            "tier1": [],
             "avoid": ["soy sauce", "vinegar"]
         }
     },
@@ -308,55 +308,55 @@ var dish_knowledge: Dictionary = {
     "lumpiang shanghai": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
             "essential": ["wrapper", "oil", "pork", "onion", "carrot", "garlic", "black pepper", "salt"],
-            "tier1": ["water chestnuts", "celery"],
+            "tier1": [],
             "avoid": ["soy sauce", "vinegar"]
         }
     },
     "barbeque": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["pork", "soy sauce", "ketchup", "calamansi", "garlic", "black pepper", "sugar", "salt"],
-            "tier1": ["banana ketchup", "sprite"],
+            "essential": ["pork", "soy sauce", "garlic", "black pepper", "sugar", "salt"],
+            "tier1": [],
             "avoid": ["vinegar", "coconut milk"]
         }
     },
     "hamonado": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["pineapple juice", "brown sugar", "soy sauce", "garlic", "onion", "black pepper"],
-            "tier1": ["bay leaves", "star anise"],
+            "essential": ["sugar", "soy sauce", "garlic", "onion", "black pepper"],
+            "tier1": ["bay leaves"],
             "avoid": ["vinegar", "coconut milk"]
         }
     },
     "tocino": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
             "essential": ["sugar", "salt", "garlic"],
-            "tier1": ["annatto", "pineapple juice"],
+            "tier1": [],
             "avoid": ["vinegar", "soy sauce"]
         }
     },
     "nilagang baboy": {
         "meat": {
             "essential": ["pork"],
-            "avoid": ["beef", "poultry"]
+            "avoid": ["beef"]
         },
         "ingredients": {
-            "essential": ["potatoes", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
-            "tier1": ["green beans", "bok choy"],
+            "essential": ["potato", "cabbage", "corn", "onion", "black pepper", "fish sauce"],
+            "tier1": [],
             "avoid": ["soy sauce", "vinegar"]
         }
     },
@@ -366,8 +366,8 @@ var dish_knowledge: Dictionary = {
             "avoid": ["pork", "beef"]
         },
         "ingredients": {
-            "essential": ["ginger", "onion", "pechay", "salt", "peppercorns"],
-            "tier1": ["green papaya", "malunggay"],
+            "essential": ["ginger", "onion", "pechay", "salt", "black pepper"],
+            "tier1": ["morngga"],
             "avoid": ["soy sauce", "vinegar"]
         }
     }
