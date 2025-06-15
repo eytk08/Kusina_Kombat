@@ -511,7 +511,7 @@
          },
          "barbeque": {
          "ingredients": ["pork", "soy sauce", "ketchup", "calamansi", "garlic", "black pepper", "sugar", "salt"],
-         
+         "meat": ["pork"],
          "cooking_method": ["grill"],
          "dish_type": "main"
          
