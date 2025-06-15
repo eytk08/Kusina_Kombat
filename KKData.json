@@ -1,5 +1,5 @@
 {
-"themes": {
+  "themes": {
     "masarsa": {
       "name": "Masarsa (Saucy)",
       "dishes": [
@@ -17,8 +17,8 @@
       "dishes": [
         { "name": "sisig", "points": 3 },
         { "name": "dinuguan", "points": 2 },
-        { "name": "kaldereta", "points": 3 },
-        { "name": "bicol express", "points": 3 },
+        { "name": "caldereta", "points": 3 },
+        { "name": "bicol express", "points": 3 }
       ]
     },
     "matamis": {
@@ -96,6 +96,11 @@
       "meat": ["beef", "pork"],
       "cooking_method": ["stew"]
     },
+    "kaldereta": {
+      "ingredients": ["tomato sauce", "potato", "carrot", "bell peppers"],
+      "meat": ["beef"],
+      "cooking_method": ["stew"]
+    },
     "adobong manok": {
       "ingredients": ["soy sauce", "vinegar", "garlic", "bay leaves"],
       "meat": ["chicken"],
@@ -103,7 +108,7 @@
     },
     "adobong baboy": {
       "ingredients": ["soy sauce", "vinegar", "garlic", "bay leaves"],
-      "meat": ["manok"],
+      "meat": ["pork"],
       "cooking_method": ["saute", "stew"]
     },
     "bicol express": {
@@ -113,7 +118,7 @@
     },
     "sinigang na baboy": {
       "ingredients": ["tamarind", "kangkong", "radish"],
-      "meat": ["bone pork", "pork"],
+      "meat": ["pork bone", "pork"],
       "cooking_method": ["boil"]
     },
     "lechon kawali": {
@@ -140,11 +145,6 @@
       "ingredients": ["onion", "garlic", "ginger", "green chili pepper", "soy sauce", "calamansi", "black pepper"],
       "meat": ["pork"],
       "cooking_method": ["grill", "saute"]
-    },
-    "kaldereta": {
-      "ingredients": ["beef", "onion", "garlic", "potato", "carrot", "black pepper", "green chili pepper", "tomato"],
-      "meat": ["beef"],
-      "cooking_method": ["stew"]
     },
     "champorado": {
       "ingredients": ["rice", "chocolate", "milk", "sugar"],
@@ -187,6 +187,7 @@
     },
     "ginataang kalabasa": {
       "ingredients": ["squash", "beans", "coconut milk", "onion", "ginger", "garlic", "black pepper", "fish sauce"],
+      "meat": ["pork", "chicken", "shrimp"],
       "cooking_method": ["stew"]
     },
     "lumpiang sariwa": {
@@ -206,6 +207,7 @@
     },
     "ginisang ampalaya": {
       "ingredients": ["bitter gourd", "oil", "garlic", "salt", "black pepper", "egg", "tomato", "onion"],
+      "meat": ["pork"],
       "cooking_method": ["saute"]
     },
     "pancit canton": {
@@ -248,16 +250,15 @@
       "meat": ["pork"],
       "cooking_method": ["fry", "grill"]
     },
-    "nilagang baboy": {
-      "ingredients": [ "potatoes", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
+    "nilagang-baboy": {
+      "ingredients": ["potatoes", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
       "meat": ["pork"],
       "cooking_method": ["boil"]
     },
     "pesa na isda": {
-      "ingredients": [ "ginger", "onion", "pechay", "salt", "peppercorns"],
+      "ingredients": ["ginger", "onion", "pechay", "salt", "peppercorns"],
       "meat": ["fish"],
       "cooking_method": ["boil"]
     }
   }
-
-
+}
