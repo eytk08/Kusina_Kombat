@@ -1,264 +1,244 @@
 {
   "themes": {
-    "masarsa": {
-      "name": "Masarsa (Saucy)",
-      "dishes": [
-        { "name": "kare-kare", "points": 3 },
-        { "name": "kaldereta", "points": 3 },
-        { "name": "adobong manok", "points": 3 },
-        { "name": "adobong baboy", "points": 3 },
-        { "name": "menudo", "points": 3 },
-        { "name": "afritada", "points": 3 },
-        { "name": "bicol express", "points": 3 }
-      ]
-    },
-    "maanghang": {
-      "name": "Maanghang",
-      "dishes": [
-        { "name": "sisig", "points": 3 },
-        { "name": "dinuguan", "points": 2 },
-        { "name": "caldereta", "points": 3 },
-        { "name": "bicol express", "points": 3 }
-      ]
-    },
-    "matamis": {
-      "name": "Matamis",
-      "dishes": [
-        { "name": "hamonado", "points": 3 },
-        { "name": "tocino", "points": 3 }
-      ]
-    },
-    "maalat": {
-      "name": "Maalat",
-      "dishes": [
-        { "name": "adobong manok", "points": 3 },
-        { "name": "adobong baboy", "points": 3 },
-        { "name": "pansit canton", "points": 3 }
-      ]
-    },
-    "maasim": {
-      "name": "Maasim",
-      "dishes": [
-        { "name": "sinigang na baboy", "points": 3 },
-        { "name": "sinigang na hipon", "points": 3 },
-        { "name": "sinigang na isda", "points": 3 },
-        { "name": "paksiw na isda", "points": 3 }
-      ]
-    },
-    "agahan": {
-      "name": "Agahan",
-      "dishes": [
-        { "name": "tapsilog", "points": 3 },
-        { "name": "tocilog", "points": 3 },
-        { "name": "longsilog", "points": 3 },
-        { "name": "arroz caldo", "points": 3 },
-        { "name": "champorado", "points": 2 },
-        { "name": "tuyosilog", "points": 3 }
-      ]
-    },
-    "pulutan": {
-      "name": "Pulutan",
-      "dishes": [
-        { "name": "sisig", "points": 3 },
-        { "name": "lechon kawali", "points": 3 },
-        { "name": "crispy pata", "points": 3 }
-      ]
-    },
-    "gulay": {
-      "name": "Gulay",
-      "dishes": [
-        { "name": "pinakbet", "points": 3 },
-        { "name": "ginataang kalabasa", "points": 3 },
-        { "name": "lumpiang sariwa", "points": 3 },
-        { "name": "ginisang sitaw", "points": 2 },
-        { "name": "nilagang-baboy", "points": 2 },
-        { "name": "ginisang monggo", "points": 3 },
-        { "name": "ginisang ampalaya", "points": 3 },
-        { "name": "pesa na isda", "points": 2 }
-      ]
-    },
-    "handaan": {
-      "name": "Handaan",
-      "dishes": [
-        { "name": "lechon kawali", "points": 3 },
-        { "name": "lumpiang shanghai", "points": 3 },
-        { "name": "pancit canton", "points": 3 },
-        { "name": "kare-kare", "points": 3 },
-        { "name": "kaldereta", "points": 3 },
-        { "name": "barbeque", "points": 3 },
-        { "name": "crispy pata", "points": 3 }
-      ]
-    }
+	"masarsa": {
+	  "name": "Masarsa",
+	  "dishes": [
+		{ "name": "kare kare", "points": 3 },
+		{ "name": "kaldereta", "points": 3 },
+		{ "name": "bicol express", "points": 3 }
+	  ]
+	},
+	"maanghang": {
+	  "name": "Maanghang",
+	  "dishes": [
+		{ "name": "sisig", "points": 3 },
+		{ "name": "dinuguan", "points": 2 },
+		{ "name": "caldereta", "points": 3 },
+		{ "name": "bicol express", "points": 3 }
+	  ]
+	},
+	"matamis": {
+	  "name": "Matamis",
+	  "dishes": [
+		{ "name": "hamonado", "points": 3 },
+		{ "name": "tocino", "points": 3 },
+		{ "name": "champorado", "points": 3 },
+	  ]
+	},
+	"maalat": {
+	  "name": "Maalat",
+	  "dishes": [
+		{ "name": "adobong manok", "points": 3 },
+		{ "name": "adobong baboy", "points": 3 },
+		{ "name": "pancit canton", "points": 3 },
+	  ]
+	},
+	"maasim": {
+	  "name": "Maasim",
+	  "dishes": [
+		{ "name": "sinigang na baboy", "points": 3 },
+		{ "name": "sinigang na hipon", "points": 3 },
+		{ "name": "sinigang na isda", "points": 3 },
+	  ]
+	},
+	"agahan": {
+	  "name": "Agahan",
+	  "dishes": [
+		{ "name": "tapsilog", "points": 3 },
+		{ "name": "arroz caldo", "points": 3 },
+		{ "name": "champorado", "points": 2 },
+	  ]
+	},
+	"pulutan": {
+	  "name": "Pulutan",
+	  "dishes": [
+		{ "name": "sisig", "points": 3 },
+		{ "name": "lechon kawali", "points": 3 },
+		{ "name": "crispy pata", "points": 3 }
+	  ]
+	},
+	"gulay": {
+	  "name": "Gulay",
+	  "dishes": [
+		{ "name": "pinakbet", "points": 3 },
+		{ "name": "ginataang kalabasa", "points": 3 },
+		{ "name": "lumpiang sariwa", "points": 3 },
+		{ "name": "nilagang baboy", "points": 2 },
+	  ]
+	},
+	"handaan": {
+	  "name": "Handaan",
+	  "dishes": [
+		{ "name": "lechon kawali", "points": 3 },
+		{ "name": "lumpiang shanghai", "points": 3 },
+		{ "name": "kare kare", "points": 3 }
+	  ]
+	}
   },
   "dishes": {
-    "kare-kare": {
-      "ingredients": ["peanut butter", "eggplant", "string beans", "shrimp paste"],
-      "meat": ["beef", "pork"],
-      "cooking_method": ["stew"]
-    },
-    "kaldereta": {
-      "ingredients": ["tomato sauce", "potato", "carrot", "bell peppers"],
-      "meat": ["beef"],
-      "cooking_method": ["stew"]
-    },
-    "adobong manok": {
-      "ingredients": ["soy sauce", "vinegar", "garlic", "bay leaves"],
-      "meat": ["chicken"],
-      "cooking_method": ["saute", "stew"]
-    },
-    "adobong baboy": {
-      "ingredients": ["soy sauce", "vinegar", "garlic", "bay leaves"],
-      "meat": ["pork"],
-      "cooking_method": ["saute", "stew"]
-    },
-    "bicol express": {
-      "ingredients": ["coconut milk", "chili peppers", "shrimp paste"],
-      "meat": ["pork", "shrimp"],
-      "cooking_method": ["stew"]
-    },
-    "sinigang na baboy": {
-      "ingredients": ["tamarind", "kangkong", "radish"],
-      "meat": ["pork bone", "pork"],
-      "cooking_method": ["boil"]
-    },
-    "lechon kawali": {
-      "ingredients": ["salt", "pepper", "oil"],
-      "meat": ["pork"],
-      "cooking_method": ["fry"]
-    },
-    "menudo": {
-      "ingredients": ["soy sauce", "garlic", "onion", "tomato sauce", "carrot", "potato"],
-      "meat": ["pork"],
-      "cooking_method": ["saute", "stew"]
-    },
-    "afritada": {
-      "ingredients": ["soy sauce", "garlic", "onion", "tomato sauce", "bell pepper", "carrot", "potato"],
-      "meat": ["chicken"],
-      "cooking_method": ["saute", "stew"]
-    },
-    "dinuguan": {
-      "ingredients": ["garlic", "vinegar", "ginger", "green chili pepper", "pigs blood"],
-      "meat": ["offal", "pork"],
-      "cooking_method": ["stew"]
-    },
-    "sisig": {
-      "ingredients": ["onion", "garlic", "ginger", "green chili pepper", "soy sauce", "calamansi", "black pepper"],
-      "meat": ["pork"],
-      "cooking_method": ["grill", "saute"]
-    },
-    "champorado": {
-      "ingredients": ["rice", "chocolate", "milk", "sugar"],
-      "cooking_method": ["boil"]
-    },
-    "tapsilog": {
-      "ingredients": ["egg", "garlic", "rice", "salt", "oil"],
-      "meat": ["beef"],
-      "cooking_method": ["fry"]
-    },
-    "tocilog": {
-      "ingredients": ["egg", "garlic", "rice", "salt", "oil"],
-      "meat": ["pork"],
-      "cooking_method": ["fry"]
-    },
-    "longsilog": {
-      "ingredients": ["egg", "garlic", "rice", "salt", "oil"],
-      "meat": ["pork"],
-      "cooking_method": ["fry"]
-    },
-    "arroz caldo": {
-      "ingredients": ["rice", "garlic", "onion", "ginger", "egg", "fish sauce"],
-      "meat": ["chicken"],
-      "cooking_method": ["boil"]
-    },
-    "tuyosilog": {
-      "ingredients": ["egg", "garlic", "rice", "salt", "oil"],
-      "meat": ["tuyo"],
-      "cooking_method": ["fry"]
-    },
-    "crispy pata": {
-      "ingredients": ["pork", "bay leaves", "salt", "pepper"],
-      "meat": ["pork"],
-      "cooking_method": ["fry"]
-    },
-    "pinakbet": {
-      "ingredients": ["beans", "squash", "okra", "eggplant", "bitter gourd", "sweet potato", "tomato", "ginger", "onion", "garlic", "shrimp paste"],
-      "meat": ["shrimp", "pork"],
-      "cooking_method": ["saute", "stew"]
-    },
-    "ginataang kalabasa": {
-      "ingredients": ["squash", "beans", "coconut milk", "onion", "ginger", "garlic", "black pepper", "fish sauce"],
-      "meat": ["pork", "chicken", "shrimp"],
-      "cooking_method": ["stew"]
-    },
-    "lumpiang sariwa": {
-      "ingredients": ["sweet potato", "fish sauce", "cabbage", "carrot", "peanut butter", "lettuce", "pork", "tofu", "shrimp", "beans", "onion", "garlic", "wrapper", "soy sauce", "sugar"],
-      "meat": ["pork", "shrimp"],
-      "cooking_method": ["saute"]
-    },
-    "ginisang sitaw": {
-      "ingredients": ["beans", "tomato", "onion", "garlic", "fish sauce", "black pepper"],
-      "meat": ["pork"],
-      "cooking_method": ["saute"]
-    },
-    "ginisang monggo": {
-      "ingredients": ["mung beans", "garlic", "spinach", "tomato", "onion", "fish sauce", "black pepper"],
-      "meat": ["pork", "shrimp"],
-      "cooking_method": ["stew"]
-    },
-    "ginisang ampalaya": {
-      "ingredients": ["bitter gourd", "oil", "garlic", "salt", "black pepper", "egg", "tomato", "onion"],
-      "meat": ["pork"],
-      "cooking_method": ["saute"]
-    },
-    "pancit canton": {
-      "ingredients": ["canton", "onion", "garlic", "carrot", "cabbage", "oyster sauce", "soy sauce", "salt", "pepper"],
-      "meat": ["pork", "shrimp"],
-      "cooking_method": ["saute"]
-    },
-    "sinigang na hipon": {
-      "ingredients": ["string beans", "sampaloc", "okra", "green chili pepper", "radish", "tomato", "onion"],
-      "meat": ["shrimp"],
-      "cooking_method": ["boil"]
-    },
-    "sinigang na isda": {
-      "ingredients": ["string beans", "sampaloc", "okra", "green chili pepper", "radish", "tomato", "onion"],
-      "meat": ["fish"],
-      "cooking_method": ["boil"]
-    },
-    "paksiw na isda": {
-      "ingredients": ["garlic", "onion", "vinegar", "chili", "salt"],
-      "meat": ["fish"],
-      "cooking_method": ["stew"]
-    },
-    "lumpiang shanghai": {
-      "ingredients": ["wrapper", "oil", "pork", "onion", "carrot", "garlic", "black pepper", "salt"],
-      "meat": ["pork"],
-      "cooking_method": ["fry"]
-    },
-    "barbeque": {
-      "ingredients": ["pork", "soy sauce", "ketchup", "calamansi", "garlic", "black pepper", "sugar", "salt"],
-      "meat": ["pork"],
-      "cooking_method": ["grill"]
-    },
-    "hamonado": {
-      "ingredients": ["pineapple juice", "brown sugar", "soy sauce", "garlic", "onion", "black pepper"],
-      "meat": ["pork"],
-      "cooking_method": ["braise", "stew"]
-    },
-    "tocino": {
-      "ingredients": ["sugar", "salt", "garlic"],
-      "meat": ["pork"],
-      "cooking_method": ["fry", "grill"]
-    },
-    "nilagang-baboy": {
-      "ingredients": ["potatoes", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
-      "meat": ["pork"],
-      "cooking_method": ["boil"]
-    },
-    "pesa na isda": {
-      "ingredients": ["ginger", "onion", "pechay", "salt", "peppercorns"],
-      "meat": ["fish"],
-      "cooking_method": ["boil"]
-    }
+	"kare kare": {
+	  "ingredients": ["peanut", "eggplant"],
+	  "meat": ["beef", "pork"],
+	  "cooking_method": ["stew"]
+	},
+	"kaldereta": {
+	  "ingredients": ["tomato sauce", "potato", "carrot", "bell peppers"],
+	  "meat": ["beef"],
+	  "cooking_method": ["stew"]
+	},
+	"adobong manok": {
+	  "ingredients": ["soy sauce", "vinegar", "garlic", "bay leaves"],
+	  "meat": ["chicken"],
+	  "cooking_method": ["saute", "stew"]
+	},
+	"adobong baboy": {
+	  "ingredients": ["soy sauce", "vinegar", "garlic", "bay leaves"],
+	  "meat": ["pork"],
+	  "cooking_method": ["saute", "stew"]
+	},
+	"bicol express": {
+	  "ingredients": ["coconut milk", "chili peppers", "shrimp paste"],
+	  "meat": ["pork", "shrimp"],
+	  "cooking_method": ["stew"]
+	},
+	"sinigang na baboy": {
+	  "ingredients": ["tamarind", "kangkong", "radish"],
+	  "meat": ["pork bone", "pork"],
+	  "cooking_method": ["boil"]
+	},
+	"lechon kawali": {
+	  "ingredients": ["salt", "pepper", "oil"],
+	  "meat": ["pork"],
+	  "cooking_method": ["fry"]
+	},
+	"menudo": {
+	  "ingredients": ["soy sauce", "garlic", "onion", "tomato sauce", "carrot", "potato"],
+	  "meat": ["pork"],
+	  "cooking_method": ["saute", "stew"]
+	},
+	"afritada": {
+	  "ingredients": ["soy sauce", "garlic", "onion", "tomato sauce", "bell pepper", "carrot", "potato"],
+	  "meat": ["chicken"],
+	  "cooking_method": ["saute", "stew"]
+	},
+	"dinuguan": {
+	  "ingredients": ["garlic", "vinegar", "ginger", "green chili pepper", "pigs blood"],
+	  "meat": ["offal", "pork"],
+	  "cooking_method": ["stew"]
+	},
+	"sisig": {
+	  "ingredients": ["onion", "garlic", "ginger", "green chili pepper", "soy sauce", "calamansi", "black pepper"],
+	  "meat": ["pork"],
+	  "cooking_method": ["grill", "saute"]
+	},
+	"champorado": {
+	  "ingredients": ["rice", "chocolate", "milk", "sugar"],
+	  "cooking_method": ["boil"]
+	},
+	"tapsilog": {
+	  "ingredients": ["egg", "garlic", "rice", "salt", "oil"],
+	  "meat": ["beef"],
+	  "cooking_method": ["fry"]
+	},
+	"tocilog": {
+	  "ingredients": ["egg", "garlic", "rice", "salt", "oil"],
+	  "meat": ["pork"],
+	  "cooking_method": ["fry"]
+	},
+	"longsilog": {
+	  "ingredients": ["egg", "garlic", "rice", "salt", "oil"],
+	  "meat": ["pork"],
+	  "cooking_method": ["fry"]
+	},
+	"arroz caldo": {
+	  "ingredients": ["rice", "garlic", "onion", "ginger", "egg", "fish sauce"],
+	  "meat": ["chicken"],
+	  "cooking_method": ["boil"]
+	},
+	"tuyosilog": {
+	  "ingredients": ["egg", "garlic", "rice", "salt", "oil"],
+	  "meat": ["tuyo"],
+	  "cooking_method": ["fry"]
+	},
+	"crispy pata": {
+	  "ingredients": ["pork", "bay leaves", "salt", "pepper"],
+	  "meat": ["pork"],
+	  "cooking_method": ["fry"]
+	},
+	"pinakbet": {
+	  "ingredients": ["beans", "squash", "okra", "eggplant", "bitter gourd", "sweet potato", "tomato", "ginger", "onion", "garlic", "shrimp paste"],
+	  "meat": ["shrimp", "pork"],
+	  "cooking_method": ["saute", "stew"]
+	},
+	"ginataang kalabasa": {
+	  "ingredients": ["squash", "beans", "coconut milk", "onion", "ginger", "garlic", "black pepper", "fish sauce"],
+	  "meat": ["pork", "chicken", "shrimp"],
+	  "cooking_method": ["stew"]
+	},
+	"lumpiang sariwa": {
+	  "ingredients": ["sweet potato", "fish sauce", "cabbage", "carrot", "peanut butter", "lettuce", "pork", "tofu", "shrimp", "beans", "onion", "garlic", "wrapper", "soy sauce", "sugar"],
+	  "meat": ["pork", "shrimp"],
+	  "cooking_method": ["saute"]
+	},
+	"ginisang sitaw": {
+	  "ingredients": ["beans", "tomato", "onion", "garlic", "fish sauce", "black pepper"],
+	  "meat": ["pork"],
+	  "cooking_method": ["saute"]
+	},
+	"ginisang monggo": {
+	  "ingredients": ["mung beans", "garlic", "spinach", "tomato", "onion", "fish sauce", "black pepper"],
+	  "meat": ["pork", "shrimp"],
+	  "cooking_method": ["stew"]
+	},
+	"ginisang ampalaya": {
+	  "ingredients": ["bitter gourd", "oil", "garlic", "salt", "black pepper", "egg", "tomato", "onion"],
+	  "meat": ["pork"],
+	  "cooking_method": ["saute"]
+	},
+	"pancit canton": {
+	  "ingredients": ["canton", "onion", "garlic", "carrot", "cabbage", "oyster sauce", "soy sauce", "salt", "pepper"],
+	  "meat": ["pork", "shrimp"],
+	  "cooking_method": ["saute"]
+	},
+	"sinigang na hipon": {
+	  "ingredients": ["string beans", "sampaloc", "okra", "green chili pepper", "radish", "tomato", "onion"],
+	  "meat": ["shrimp"],
+	  "cooking_method": ["boil"]
+	},
+	"sinigang na isda": {
+	  "ingredients": ["string beans", "sampaloc", "okra", "green chili pepper", "radish", "tomato", "onion"],
+	  "meat": ["fish"],
+	  "cooking_method": ["boil"]
+	},
+	"paksiw na isda": {
+	  "ingredients": ["garlic", "onion", "vinegar", "chili", "salt"],
+	  "meat": ["fish"],
+	  "cooking_method": ["stew"]
+	},
+	"lumpiang shanghai": {
+	  "ingredients": ["wrapper", "oil", "pork", "onion", "carrot", "garlic", "black pepper", "salt"],
+	  "meat": ["pork"],
+	  "cooking_method": ["fry"]
+	},
+	"barbeque": {
+	  "ingredients": ["pork", "soy sauce", "ketchup", "calamansi", "garlic", "black pepper", "sugar", "salt"],
+	  "meat": ["pork"],
+	  "cooking_method": ["grill"]
+	},
+	"hamonado": {
+	  "ingredients": ["pineapple juice", "brown sugar", "soy sauce", "garlic", "onion", "black pepper"],
+	  "meat": ["pork"],
+	  "cooking_method": ["braise", "stew"]
+	},
+	"tocino": {
+	  "ingredients": ["sugar", "salt", "garlic"],
+	  "meat": ["pork"],
+	  "cooking_method": ["fry", "grill"]
+	},
+	"nilagang baboy": {
+	  "ingredients": ["potatoes", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
+	  "meat": ["pork"],
+	  "cooking_method": ["boil"]
+	}
   }
 }
