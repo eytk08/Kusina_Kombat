@@ -2,7 +2,7 @@ var dish_knowledge: Dictionary = {
     "kare-kare": {
         "meat": {
             "essential": ["beef", "pork"],
-            "tier1": ["chicken", "offal"],
+            "tier1": ["chicken", "bone"],
             "avoid": ["shrimp", "fish"]
         },
         "ingredients": {
@@ -18,7 +18,7 @@ var dish_knowledge: Dictionary = {
     },
     "kaldereta": {
         "meat": {
-            "essential": ["beef"],
+            "essential": ["beef", "bone"],
             "tier1": ["pork", "chicken"],
             "avoid": ["fish", "shrimp"]
         },
@@ -36,7 +36,7 @@ var dish_knowledge: Dictionary = {
     "bicol express": {
         "meat": {
             "essential": ["pork"],
-            "tier1": ["shrimp", "chicken"],
+            "tier1": ["shrimp", "chicken", "bone"],
             "avoid": ["beef", "fish"]
         },
         "ingredients": {
@@ -104,7 +104,7 @@ var dish_knowledge: Dictionary = {
     "champorado": {
         "meat": {
             "essential": ["tuyo"],
-            "tier1": ["fish"],
+            "tier1": ["fish", "shrimp", "crab"],
             "avoid": ["beef", "chicken"]
         },
         "ingredients": {
@@ -121,7 +121,7 @@ var dish_knowledge: Dictionary = {
     "adobong manok": {
         "meat": {
             "essential": ["chicken"],
-            "tier1": ["pork", "beef"],
+            "tier1": ["pork", "beef", "bone"],
             "avoid": ["squid"]
         },
         "ingredients": {
@@ -137,14 +137,14 @@ var dish_knowledge: Dictionary = {
     },
     "adobong baboy": {
         "meat": {
-            "essential": ["pork"],
-            "tier1": ["chicken", "squid"],
-            "avoid": ["fish"]
+            "essential": ["pork", "bone"],
+            "tier1": ["chicken", "beef"],
+            "avoid": ["fish", "squid"]
         },
         "ingredients": {
             "essential": ["soy sauce", "vinegar", "garlic", "bay leaves", "potato"],
-            "tier1": ["coconut", "onion", "oil", "oyster sauce", "chili"],
-            "avoid": ["cheese", "milk"]
+            "tier1": ["coconut", "onion", "oil", "oyster sauce", "chili", "cheese"],
+            "avoid": [tomato sauce, "milk"]
         },
         "cooking_methods": {
             "primary": ["stew"],
@@ -155,7 +155,7 @@ var dish_knowledge: Dictionary = {
     "pancit canton": {
         "meat": {
             "essential": ["pork", "shrimp"],
-            "tier1": ["squid", "crab", "chicken", "offal"],
+            "tier1": ["bone", "crab", "chicken", "offal"],
             "avoid": ["beef", "fish"]
         },
         "ingredients": {
@@ -189,7 +189,7 @@ var dish_knowledge: Dictionary = {
     "sinigang na hipon": {
         "meat": {
             "essential": ["shrimp"],
-            "tier1": ["fish", "pork", "chicken"],
+            "tier1": ["fish", "crab", "squid"],
             "avoid": ["beef"]
         },
         "ingredients": {
@@ -257,7 +257,7 @@ var dish_knowledge: Dictionary = {
     "lechon kawali": {
         "meat": {
             "essential": ["pork"],
-            "tier1": ["bone"],
+            "tier1": ["bone", "chicken", "beef"],
             "avoid": ["shrimp", "fish", "squid"]
         },
         "ingredients": {
@@ -358,7 +358,7 @@ var dish_knowledge: Dictionary = {
     },
     "barbeque": {
         "meat": {
-            "essential": ["pork"],
+            "essential": ["pork", "offal"],
             "tier1": ["chicken", "beef"],
             "avoid": ["crab", "squid"]
         },
