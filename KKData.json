@@ -76,12 +76,12 @@
   },
   "dishes": {
 	"kare kare": {
-	  "ingredients": ["peanut", "eggplant"],
+	  "ingredients": ["peanut", "eggplant", "string beans", "pechay"],
 	  "meat": ["beef", "pork"],
 	  "cooking_method": ["stew"]
 	},
 	"kaldereta": {
-	  "ingredients": ["tomato sauce", "potato", "carrot", "bell peppers"],
+	  "ingredients": ["tomato sauce", "potato", "carrot", "bell pepper"],
 	  "meat": ["beef"],
 	  "cooking_method": ["stew"]
 	},
@@ -111,7 +111,7 @@
 	  "cooking_method": ["fry"]
 	},
 	"sisig": {
-	  "ingredients": ["onion", "garlic", "ginger", "green chili pepper", "soy sauce", "calamansi", "black pepper"],
+	  "ingredients": ["onion", "garlic", "ginger", "green chili pepper", "soy sauce", "calamansi", "pepper"],
 	  "meat": ["pork"],
 	  "cooking_method": ["grill", "saute"]
 	},
@@ -185,7 +185,7 @@
 	  "cooking_method": ["fry", "grill"]
 	},
 	"nilagang baboy": {
-	  "ingredients": ["potatoes", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
+	  "ingredients": ["potato", "cabbage", "corn", "onion", "peppercorns", "fish sauce"],
 	  "meat": ["pork"],
 	  "cooking_method": ["boil"]
 	}
